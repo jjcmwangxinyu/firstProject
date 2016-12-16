@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		733D64261E03BABD003BAFE2 /* UIImageView+longPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D64251E03BABD003BAFE2 /* UIImageView+longPress.m */; };
+		733D642A1E03BB80003BAFE2 /* UIImageView+longPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D64291E03BB80003BAFE2 /* UIImageView+longPress.m */; };
 		845EF6541CF2C6350000C4F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EF6531CF2C6350000C4F2 /* main.m */; };
 		845EF6571CF2C6350000C4F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EF6561CF2C6350000C4F2 /* AppDelegate.m */; };
 		845EF65A1CF2C6350000C4F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845EF6591CF2C6350000C4F2 /* ViewController.m */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		733D64241E03BABD003BAFE2 /* UIImageView+longPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+longPress.h"; sourceTree = "<group>"; };
-		733D64251E03BABD003BAFE2 /* UIImageView+longPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+longPress.m"; sourceTree = "<group>"; };
+		733D64281E03BB80003BAFE2 /* UIImageView+longPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+longPress.h"; sourceTree = "<group>"; };
+		733D64291E03BB80003BAFE2 /* UIImageView+longPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+longPress.m"; sourceTree = "<group>"; };
 		845EF64F1CF2C6350000C4F2 /* 放大 透明.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "放大 透明.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845EF6531CF2C6350000C4F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		845EF6551CF2C6350000C4F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,13 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		733D64231E03BABD003BAFE2 /* categoryImg */ = {
+		733D64271E03BB80003BAFE2 /* categoryImg */ = {
 			isa = PBXGroup;
 			children = (
-				733D64241E03BABD003BAFE2 /* UIImageView+longPress.h */,
-				733D64251E03BABD003BAFE2 /* UIImageView+longPress.m */,
+				733D64281E03BB80003BAFE2 /* UIImageView+longPress.h */,
+				733D64291E03BB80003BAFE2 /* UIImageView+longPress.m */,
 			);
-			path = categoryImg;
+			name = categoryImg;
+			path = ../categoryImg;
 			sourceTree = "<group>";
 		};
 		845EF6461CF2C6350000C4F2 = {
@@ -118,7 +119,7 @@
 		845EF6511CF2C6350000C4F2 /* 放大 透明 */ = {
 			isa = PBXGroup;
 			children = (
-				733D64231E03BABD003BAFE2 /* categoryImg */,
+				733D64271E03BB80003BAFE2 /* categoryImg */,
 				845EF6851CF2C67B0000C4F2 /* hahha.jpg */,
 				845EF6551CF2C6350000C4F2 /* AppDelegate.h */,
 				845EF6561CF2C6350000C4F2 /* AppDelegate.m */,
@@ -294,7 +295,7 @@
 			files = (
 				845EF65A1CF2C6350000C4F2 /* ViewController.m in Sources */,
 				845EF6571CF2C6350000C4F2 /* AppDelegate.m in Sources */,
-				733D64261E03BABD003BAFE2 /* UIImageView+longPress.m in Sources */,
+				733D642A1E03BB80003BAFE2 /* UIImageView+longPress.m in Sources */,
 				845EF68A1CF2D1B30000C4F2 /* rootViewController.m in Sources */,
 				845EF6541CF2C6350000C4F2 /* main.m in Sources */,
 			);
